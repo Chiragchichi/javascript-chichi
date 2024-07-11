@@ -4,27 +4,27 @@ tinderUSER.id="123abc"
 tinderUSER.name="rudraax"
 tinderUSER.location="delhi"
 
-// // console.log(tinderUSER);
+console.log(tinderUSER);
 
-// const bumbble={
-//     name:{
-//         fullname:{
-//             firstname:"rudraax",
-//             lastname:"lakra"
-//         }
-//     }
-// }
+const bumbble={
+    name:{
+        fullname:{
+            firstname:"rudraax",
+            lastname:"lakra"
+        }
+    }
+}
 
 // console.log(bumbble.name.fullname.firstname);
 
-//  const obj1={1:'a',2:"b",3:"c"}
-//  const obj2={4:'d',5:"g",6:"f"}
+ const obj1={1:'a',2:"b",3:"c"}
+ const obj2={4:'d',5:"g",6:"f"}
 
 //  const obj3=Object.assign({},obj1,obj2)
 
 //  console.log(obj3);
-// const obj3={...obj1,...obj2}
-// console.log(obj3);
+const obj3={...obj1,...obj2}
+console.log(obj3);
 
 const user=[
     {
@@ -50,10 +50,10 @@ const user=[
 ]
 // console.log(user[1].id);
 
-// console.log(tinderUSER);
-// console.log(Object.keys(tinderUSER));
-// console.log(Object.values(tinderUSER));
-// console.log(Object.entries(tinderUSER));
+console.log(tinderUSER);
+console.log(Object.keys(tinderUSER));
+console.log(Object.values(tinderUSER));
+console.log(Object.entries(tinderUSER));
 
 // console.log(tinderUSER.hasOwnProperty('location'));
 
@@ -71,19 +71,19 @@ console.log(teacher);
 // +++++++++++++++++++API FORMAT+++++++++++===
 
 
-{
-    "name":"chirag",
-    "courseName":"javascript",
-    "price":"999"
-}
+// {
+//     "name":"chirag",
+//     "courseName":"javascript",
+//     "price":"999"
+// }
 
 
-[
-    {},
-    {},
-    {},
-    {}
+// [
+//     {},
+//     {},
+//     {},
+//     {}
 
-]
+// ]
 
 
